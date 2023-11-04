@@ -11,12 +11,16 @@
       smartWatch: T;
       bike?: X;
     }
+
+
   
     type EmilabWatch = {
       brand: string;
       model: string;
       display: string;
     };
+
+
   
     const poorDeveloper: Developer<EmilabWatch> = {
       name: "Persian",
@@ -31,6 +35,8 @@
         display: "OLED",
       },
     };
+
+    
   
     interface AppleWatch {
       brand: string;
